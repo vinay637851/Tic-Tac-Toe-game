@@ -132,3 +132,20 @@ button{
 button:hover{
     filter: drop-shadow(0px 0px 10px green);
 }
+@media screen and (max-width:392px){
+    button{
+        width: 25vw;
+    }
+    .pop_up{
+        height: 120px;
+    }
+    .pop_down{
+        top:0%;
+    }
+    .name{
+        width: 20vw;
+    }
+    .score-card .part{
+        width: 20vw;
+    }
+}
